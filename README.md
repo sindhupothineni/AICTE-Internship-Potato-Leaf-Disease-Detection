@@ -1,0 +1,1 @@
+# AICTE-Internship-Potato-disease-classification
