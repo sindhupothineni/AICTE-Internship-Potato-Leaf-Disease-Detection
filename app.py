@@ -22,8 +22,7 @@ def model_prediction(test_image):
     return np.argmax(predictions)
 from PIL import Image
 img=Image.open('Disease.jpg')
-if img is not None:
-    st.image(img,width=500) 
+st.image(img,width=500) 
 
 st.sidebar.title("Plant Disease Detection System for Sustainable Agriculture")
 app_mode=st.sidebar.selectbox("Select Page",["HOME","DISEASE RECOGNITION"])
