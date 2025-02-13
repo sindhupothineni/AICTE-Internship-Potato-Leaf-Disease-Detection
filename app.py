@@ -42,7 +42,7 @@ elif(app_mode=="DISEASE RECOGNITION"):
         st.write("Our Prediction")
         result_index=model_prediction(test_image)
         #Reading Labels
-        class_name=['Potato___Early_blight','Potato___Late_blight','Potato___Healthy']
+        class_name=['Potato_Early_blight','Potato_Late_blight','Potato_Healthy']
         st.success("Model is predicting. Its a {}".format(class_name[result_index]))
 
 
